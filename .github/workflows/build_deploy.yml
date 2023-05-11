@@ -11,7 +11,7 @@ jobs:
     - name: say hi to me
       run: echo "hi meiemdms" #to do a custom command
     - name: install python
-      uses: actions/setup-pyhton@v2
+      uses: actions/setup-python@v2
       with:
         python-version: "3.9"
     - name: update pip
