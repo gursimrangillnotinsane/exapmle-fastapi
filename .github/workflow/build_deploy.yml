@@ -1,6 +1,6 @@
 name : Buid and Deploy Code
 #define the trigger
-on:[push,pull_requests]
+on: [push,pull_requests]
 
 jobs:
   job1: #defines the os 
