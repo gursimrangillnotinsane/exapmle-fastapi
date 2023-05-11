@@ -10,6 +10,14 @@ jobs:
       uses: actions/checkout@v2
     - name: say hi to me
       run: echo "hi meiemdms" #to do a custom command
+    - name: install python
+      uses: actions/setup-pyhton@v2
+      with:
+        python-version: "3.9"
+    -name: update pip
+     run: python -m pip install --upgrade pip
+    -name: install all dependences
+     run: pip install -r requirement.txt
 
 
 
